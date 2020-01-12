@@ -1,0 +1,10 @@
+include(default)
+
+[settings]
+compiler=apple-clang
+compiler.libcxx=libc++
+os=Macos
+
+[env]
+CC=/usr/bin/clang
+CXX=/usr/bin/clang++
